@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://nutriflex-ai.up.railway.app"
 ]
 
 CORS_ALLOW_METHODS = (
@@ -55,7 +56,7 @@ CORS_ALLOW_HEADERS = (
     "x-requested-with",
 )
 
-# Set the following if you want to allow credentials (cookies, authorization headers, etc.)
+# Set the following to allow credentials (cookies, authorization headers, etc.).
 CORS_ALLOW_CREDENTIALS = True
 
 
